@@ -12,9 +12,9 @@ import (
 
 func main() {
 	urls := []string{
-		"https://tilda.cc/ru/",
-		"https://diplomatgo.ru/",
-		"https://osetr34.ru/",
+		"",
+		"",
+		"",
 	}
 	start := time.Now()
 	file, err := os.Create("output.txt")
