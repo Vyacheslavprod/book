@@ -13,4 +13,10 @@ func main() {
 	a := []int{0, 1, 2, 3, 4, 5}
 	r(a)
 	fmt.Println(a)
+
+	//Циклический сдвиг среза на n элементов
+	r(a[:2])
+	r(a[2:])
+	r(a)
+	fmt.Println(a)
 }
